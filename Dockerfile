@@ -1,5 +1,5 @@
 FROM quay.io/loki-xer/jarvis-md:latest
-RUN git clone https://github.com/lyfe00011/whatsapp-bot-md.git /root/LyFE/
-WORKDIR /root/LyFE/
+RUN git clone https://github.com/NoelBrazza/Levanter.git /root/Levanter/
+WORKDIR /root/Levanter/
 RUN yarn install --network-concurrency 1
 CMD ["npm", "start"]
